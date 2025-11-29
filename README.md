@@ -1,11 +1,7 @@
 Keylogger Project — Bootcamp Cybersecurity DIO + Santander
 
 Este repositório contém o projeto final desenvolvido durante o Bootcamp de Cibersegurança DIO e Santander.
-O objetivo foi praticar conceitos fundamentais de segurança ofensiva, programação em Python e análise de riscos criando dois pequenos aplicativos educacionais:
-
-keylogger.py — captura e registra teclas pressionadas localmente.
-
-keylogger_mail.py — além de registrar teclas, envia os logs por e-mail de forma automatizada.
+O objetivo foi praticar conceitos fundamentais de segurança ofensiva, programação em Python e análise de riscos criando alguns aplicativos educacionais.
 
 ⚠️ Aviso Importante:
 Os scripts aqui presentes foram desenvolvidos exclusivamente para fins educacionais dentro do escopo do bootcamp.
@@ -15,6 +11,7 @@ Use responsabilidade ética e autorização prévia.
 Durante este projeto, foram praticados:
 
 Fundamentos de segurança ofensiva
+Criptografia e descriptografia de arquivos
 Captura de eventos do sistema
 Automação com Python
 Boas práticas e responsabilidade no uso de ferramentas de segurança
